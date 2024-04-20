@@ -28,6 +28,8 @@ private:
 	bool isBalncedSubTree(Node<T>* node);
 	int height(Node<T>* node);
 	vector<Node<T>*>nodes;
+	Node<T>* buildBalancedTree(int start, int end);
+	void deleteBST(Node<T>* node);
 public:
 	
 	void balanceTree();
@@ -39,7 +41,6 @@ public:
 	Node<T>* findNode(T val);
 	void insert(T val);
 	bool isBalancedTree();
-	Node<T>* buildBalancedTree(int start, int end);
-	void deleteBST(Node<T>* node);
+
 };
 
