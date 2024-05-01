@@ -1,4 +1,4 @@
-# Binary Search Tree (BSTree) Template
+<h1 align="center" id="title">Binary Search Tree (BSTree) Template</h1>
 
 ## Introduction
 
